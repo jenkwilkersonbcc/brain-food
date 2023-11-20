@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Spicy Rice";
+    src: url(../fonts/spicyrice-regular.ttf);
+    font-style: normal;
+    font-weight: 100
+}
+
+@font-face {
+    font-family: "Gabriela";
+    src: url(../fonts/gabriela-regular.ttf);
+    font-style: normal;
+    font-weight: 100
+}
+
+@font-face {
+    font-family: "Oxygen";
+    src: url(../fonts/Oxygen-Regular.ttf);
+    font-style: normal;
+    font-weight:100;
+}
+
+* {
+    margin: 5px;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(140,3,141);
+    font-family: "Spicy Rice", "Gil Sans", fantasy;
+    font-size: 100px; 
+    text-align: right;
+    margin-bottom: 1px;
+    margin-top:5px; 
+}
+
+h2 {
+    color: rgb(247, 116, 5);
+    font-family: "Gabriela", georgia, serif;
+    font-size: 50px; 
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    color: rgb(166, 3, 3);
+    font-family: "Gabriela", Georgia, Serif;
+    font-size: 30px; 
+    text-align: left;
+}
+
+h4 {
+    color: white;
+    font-family: "Gabriela", Georgia, Serif;
+    font-size: 30px;
+    text-align:center;
+}
+
+h5 {
+    color: white;
+    font-family: "Oxygen", arial, sans-serif;
+    font-size: 20px;
+    text-align:center;
+    line-height: 2px;
+
+}
+
+p {
+    font-family: "Oxygen", arial, sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+nav ul li{
+    list-style-type: none;
+    color: white;
+    font-family:oxygen, arial, sans-serif;
+    font-size: 20px;
+    float: left;
+}
+
+nav ul li a{
+    color: white;
+    background-color:rgb(97,140,3);
+    text-decoration: none;
+    position: relative;
+    left: 50px;
+    margin: 30px;
+    padding: 5px 20px;
+    position: relative;
+    bottom: 9px;
+}
+
+nav ul li a:hover{
+    color: rgb(140,3,141);
+    background-color: rgb(242,183,5);
+}
+
+#page-title {
+    width: 90%;
+    height: 300px;
+    background-image: url(../images/home-plate.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding: 20px;
+    border: 10px solid rgb(97,140,3); 
+}
+
+/* #description-summary {
+    width: 90%;
+    height: 300px;
+    left: 75px;
+}
+
+#description-heading {
+    width:50%;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+#description {
+    width: 50%;
+    position: relative;
+    top: 25px;
+    left: 50px;
+} */
+ 
+.body-copy {
+    width: 50%;
+    float: left;
+}
+
+
+#fridge-photo {
+    width: 50%;
+    height: 300px;
+    background-image: url(../images/home-refridgerator.jpg);
+    background-repeat:no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 55%;
+}
+
+
+#meal-plan {
+    width: 45%;
+    height: 100px;
+    background-color: rgb(97,140,3);
+    border: 5px solid rgb(242,183,5); 
+    float: left;
+    /* position: relative;
+    left: 40px;
+    top: 5px; */
+}
+
+#coaching-info {
+    width: 45%;
+    height: 100px;
+    background-color: rgb(140,3,141);
+    border: 5px solid rgb(247, 116, 5); 
+    float: right;
+    /* position: relative;
+    bottom: 110px;
+    left: 570px; */
+}
