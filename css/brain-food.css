@@ -1,3 +1,6 @@
+
+/* Font Families */
+
 @font-face {
     font-family: "Spicy Rice";
     src: url(../fonts/spicyrice-regular.ttf);
@@ -20,25 +23,27 @@
 }
 
 * {
-    margin: 5px;
+    margin: 0;
     padding: 0;
 }
+
+/* font stylings */
 
 h1 {
     color: rgb(140,3,141);
     font-family: "Spicy Rice", "Gil Sans", fantasy;
-    font-size: 100px; 
+    font-size: 90px; 
     text-align: right;
-    margin-bottom: 1px;
-    margin-top:5px; 
+    margin-bottom: 0px;
+    margin-top: 0px; 
 }
 
 h2 {
     color: rgb(247, 116, 5);
     font-family: "Gabriela", georgia, serif;
-    font-size: 50px; 
+    font-size: 40px; 
     text-align: right;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -53,6 +58,7 @@ h4 {
     color: white;
     font-family: "Gabriela", Georgia, Serif;
     font-size: 30px;
+    line-height: 200%;
     text-align:center;
 }
 
@@ -70,6 +76,8 @@ p {
     font-size: 18px;
     text-align: left;
 }
+
+/* Navigation (line not used on home page) */
 
 nav ul li{
     list-style-type: none;
@@ -96,52 +104,21 @@ nav ul li a:hover{
     background-color: rgb(242,183,5);
 }
 
-#page-title {
-    width: 90%;
-    height: 300px;
-    background-image: url(../images/home-plate.jpg);
-    background-repeat: no-repeat;
-    background-size:contain;
-    padding: 20px;
-    border: 10px solid rgb(97,140,3); 
-}
-
-/* #description-summary {
-    width: 90%;
-    height: 300px;
-    left: 75px;
-}
-
-#description-heading {
-    width:50%;
+.line {
+    width: 100%;
+    height: 5px;
+    margin: auto;
+    background-color: rgb(140,3,141);
     position: relative;
-    top: 20px;
-    left: 50px;
+    top: 5px;
 }
 
-#description {
-    width: 50%;
-    position: relative;
-    top: 25px;
-    left: 50px;
-} */
- 
-.body-copy {
-    width: 50%;
-    float: left;
+/* Footer - All Pages */
+
+footer {
+    width: 95%;
+    margin: auto;
 }
-
-
-#fridge-photo {
-    width: 50%;
-    height: 300px;
-    background-image: url(../images/home-refridgerator.jpg);
-    background-repeat:no-repeat;
-    background-size: contain;
-    position: relative;
-    left: 55%;
-}
-
 
 #meal-plan {
     width: 45%;
@@ -149,9 +126,15 @@ nav ul li a:hover{
     background-color: rgb(97,140,3);
     border: 5px solid rgb(242,183,5); 
     float: left;
-    /* position: relative;
-    left: 40px;
-    top: 5px; */
+    position: absolute;
+    top: 83%;
+}
+#meal-plan a {
+    color: white;
+}
+
+#meal-plan:hover {
+    background-color:rgb(247, 116, 5);
 }
 
 #coaching-info {
@@ -159,8 +142,152 @@ nav ul li a:hover{
     height: 100px;
     background-color: rgb(140,3,141);
     border: 5px solid rgb(247, 116, 5); 
+    position: absolute;
+    top: 83%;
+    left: 52%;
+} 
+
+#coaching-info a {
+    color: white;
+}
+
+#coaching-info:hover {
+    background-color:rgb(166, 3, 3);
+}
+
+
+/* Home Page  - Header */
+
+header {
+    width: 95%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#page-title {
+    width: 95%;
+    height: 225px;
+    background-image: url(../images/home-plate.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding: 20px;
+    border: 10px solid rgb(97,140,3); 
+}
+
+
+ /* Home Page - Main */
+
+.body-copy {
+    width: 50%;
+    float: left;
+    line-height: 200%;
+    margin: 2.5%;
+}
+
+#fridge-photo {
+    width: 40%;
+    height: 300px;
+    background-image: url(../images/home-refridgerator.jpg);
+    background-repeat:no-repeat;
+    background-size: contain;
     float: right;
-    /* position: relative;
-    bottom: 110px;
-    left: 570px; */
+    margin-top: 1%;
+    margin-bottom: 1%;
+    position: relative;
+    left: 3.5%;
+}
+
+
+/* Contact Form - Main */
+
+form {
+    margin-left:25%;
+    margin-top: 20px;
+}
+
+#contact-title {
+   margin-left: 10%;
+   margin-top:10px;
+}
+
+label {
+    font-family: "Oxygen", arial, sans-serif;
+    color: rgb(97,140,3);
+    margin-bottom:15%;
+    font-weight:1000;
+}
+
+input {
+    font-family:"Oxygen", arial, sans-serif;
+    background-color: whitesmoke;
+    border-color: rgb(97,140,3);
+    border-radius: 3px;
+    padding: 5px;
+    margin-left:5%;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+/* Coaching - Header and Footer */
+
+#coaching-title {
+    width: 95%;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    top: 80px;
+}
+
+.coaching {
+    font-size: 38px;
+    color: white;
+    background-color: rgb(140,3,141);
+    margin: auto;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 2.5%;
+}
+
+.coaching-footer {
+    position: relative;
+    top: 125px;
+}
+
+/* Coaching - Main */
+
+.coaching-copy {
+    width: 55%;
+    margin-left: 5%;
+    position: relative;
+    top: 110px;
+}
+
+.coaching-heading {
+    color: rgb(97,140,3);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.coaching-list {
+    font-family: "Oxygen", arial, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 45px;
+}
+
+
+.coaching-photo {
+    width: 350px;
+    height: 492px;
+    border: 15px solid rgb(166, 3, 3);
+    margin-right: 5%;
+    background-repeat:no-repeat;
+    background-size: contain;
+    float: right;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    position: relative;
+    bottom: 475px;
+
 }
