@@ -119,11 +119,12 @@ footer {
     width: 95%;
     margin: auto;
     position: absolute;
-    top: 95%;
+    top: 100%;
     position: absolute;
     margin-left: 2.5%;
     margin-right: 2.5%;
-    margin-bottom: 7.5%;
+    margin-bottom: 2.5%;
+    margin-top: 7.5%;
 }
 
 #meal-plan {
@@ -201,8 +202,8 @@ header {
     margin-top: 5%;
     position: relative;
     left: 57%;
-    position: absolute;
-    bottom: 5%;
+    /* position: absolute;
+    bottom: 5%; */
 }
 
 /* Contact Form */
