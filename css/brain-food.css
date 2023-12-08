@@ -118,16 +118,22 @@ nav ul li a:hover{
 footer {
     width: 95%;
     margin: auto;
+    position: absolute;
+    top: 90%;
+    position: absolute;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 7.5%;
 }
 
 #meal-plan {
     width: 47%;
-    height: 100px;
+    height: 45px;
+    padding-bottom: 15px;
     background-color: rgb(97,140,3);
     border: 5px solid rgb(242,183,5); 
     float: left;
     position: absolute;
-    top: 83%;
 }
 #meal-plan a {
     color: white;
@@ -139,11 +145,11 @@ footer {
 
 #coaching-info {
     width: 47%;
-    height: 100px;
+    height: 45px;
+    padding-bottom: 15px;
     background-color: rgb(140,3,141);
     border: 5px solid rgb(247, 116, 5); 
     position: absolute;
-    top: 83%;
     left: 52%;
 } 
 
@@ -177,6 +183,11 @@ header {
 
  /* Home Page - Main */
 
+ #description-summary {
+    width: 95%;
+    margin: auto;
+ }
+
 .body-copy {
     width: 50%;
     float: left;
@@ -185,20 +196,17 @@ header {
 }
 
 #fridge-photo {
-    width: 40%;
-    height: 300px;
-    background-image: url(../images/home-refridgerator.jpg);
-    background-repeat:no-repeat;
-    background-size: contain;
     float: right;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-right: 2.5%;
+    margin-top: 5%;
     position: relative;
-    left: 3.5%;
+    left: 57%;
+    position: absolute;
+    bottom: 20%;
+  
 }
 
-
-/* Contact Form - Main */
+/* Contact Form */
 
 form {
     margin-left:25%;
@@ -206,8 +214,8 @@ form {
 }
 
 #contact-title {
-   margin-left: 10%;
-   margin-top:10px;
+    width: 90%;
+    margin: auto;
 }
 
 label {
@@ -223,12 +231,49 @@ input {
     border-color: rgb(97,140,3);
     border-radius: 3px;
     padding: 5px;
-    margin-left:5%;
     margin-right: 10px;
     margin-top: 5px;
 }
 
-/* Coaching - Header and Footer */
+#firstname {
+    position: relative;
+    left: 35px;
+}
+
+#lastname {
+    position: relative;
+    left: 36px;
+}
+
+#emailaddress {
+    position: relative;
+    left: 11px;
+}
+
+#zipcode {
+    position: relative;
+    left: 48px;
+}
+
+#submit {
+    position: relative;
+    left: 65px;
+}
+
+#reset {
+    position: relative;
+    left: 150px;
+}
+
+.contact-footer {
+    position: absolute;
+    top: 95%;
+    bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+/* Coaching - Header and footer*/
 
 #coaching-title {
     width: 95%;
@@ -249,15 +294,17 @@ input {
     padding-left: 2.5%;
 }
 
-.coaching-footer {
-    position: relative;
-    top: 125px;
+#coaching-footer {
+    position: absolute;
+    top: 85%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
 /* Coaching - Main */
 
 .coaching-copy {
-    width: 55%;
+    width: 45%;
     margin-left: 5%;
     position: relative;
     top: 110px;
@@ -276,23 +323,23 @@ input {
     margin-left: 45px;
 }
 
-
 .coaching-photo {
     width: 350px;
     height: 492px;
     border: 15px solid rgb(166, 3, 3);
-    margin-right: 5%;
+    margin-right: 8%;
     background-repeat:no-repeat;
     background-size: contain;
     float: right;
     margin-top: 1%;
     margin-bottom: 1%;
     position: relative;
-    bottom: 430px;
+    bottom: 475px;
+    
 
 }
 
-/* What to Eat - Header and Footer */
+/* What to Eat - Header & Footer*/
 
 #eat-title {
     width: 95%;
@@ -325,22 +372,26 @@ input {
     margin-bottom: 1%;
     position: relative;
     bottom: 250%;
-    
 }
 
-.eat-footer {
+#eat-footer {
     position: absolute;
-    top: 90%;
+    top: 85%;
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
 
 /* What to Eat - Main */
 
+#eat {
+width: 95%;
+position: absolute;
+top: 18%;
+}
+
 #eat-summary {
-    float: inline-start;
+    float: inline-end;
     position: absolute;
-    top: 18%;
     padding: 5%;
 }
 
@@ -356,7 +407,7 @@ input {
 .eat-heading {
     width: 55%;
     font-size: 22px;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 45%;
 }
@@ -364,19 +415,22 @@ input {
 /* What to Eat - Bulleted list of pantry and fridge staples*/
 
 #eat-staples {
-    border-color: rgb(97,140,3);
-    border-width: 20px;
+    width: 400px;
+    height: 300px;
+    /* border-color: rgb(97,140,3);
+    border-width: 20px; */
+    position: absolute;
+    left: 10%;
 }
 
-
 .staples-heading {
+    font-family: "Spicy Rice", "Gil Sans", fantasy;
     font-size: 30px;
-
     float: left;
-    margin-left: 13%;
+    margin-left: 10%;
     text-align: left;
     position: absolute;
-    top: 50%;
+    top: 80%;
 }
 
 .staples-list {
@@ -385,12 +439,96 @@ input {
     font-size: 25px;
     float: left;
     position: absolute;
-    top: 62%;
-    margin-left: 15%;
+    top: 110%;
+    margin-left: 25%;
    
 }
 
+/* Recipes - Header and Footer*/
+
+#recipes-title {
+    width: 95%;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+}
+
+.recipes {
+    font-size: 45px;
+    color: white;
+    background-color: rgb(140,3,141);
+    margin: auto;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+}
+
+.recipes-photo {
+    width: 350px;
+    height: 228px;
+    border: 15px solid rgb(166, 3, 3);
+    margin-right: 5%;
+    background-repeat:no-repeat;
+    background-size: contain;
+    float: right;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 5%;
+    position: absolute;
+    left: 60%;
+    top: 15px;
+}
+
+#recipes-video {
+    position: absolute;
+    top: 48%;
+    left: 57%;
+}
+
+#recipes-footer {
+    position: absolute;
+    top: 85%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
 
 
+/* Recipe photo and title formatting. */
 
+#recipes {
+    width: 95%;
+    margin: 2.5%;
+    position: absolute;
+    top: 20%;
+}
+
+.recipe1-photo {
+    margin-left: 2.5%; 
+}
+
+.recipe1-title {
+    text-align: center;
+    font-size: 22px;
+    float: left;
+    margin-left: 2.5%;
+}
+
+#recipe2 {
+    position: absolute;
+    left: 30%;
+    bottom: 6%;
+}
+
+.recipe2-photo {
+    
+    
+}
+
+.recipe2-title {
+    text-align: Center;
+    font-size: 22px;
+    color: rgb(97,140,3);
+}
 
