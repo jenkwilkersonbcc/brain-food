@@ -119,11 +119,12 @@ footer {
     width: 95%;
     margin: auto;
     position: absolute;
-    top: 90%;
+    top: 85%;
     position: absolute;
     margin-left: 2.5%;
     margin-right: 2.5%;
-    margin-bottom: 7.5%;
+    margin-bottom: 5%;
+    margin-top: 7.5%;
 }
 
 #meal-plan {
@@ -195,15 +196,14 @@ header {
     margin: 2.5%;
 }
 
-#fridge-photo {
+.fridge-photo {
     float: right;
     margin-right: 2.5%;
     margin-top: 5%;
     position: relative;
     left: 57%;
     position: absolute;
-    bottom: 20%;
-  
+    bottom: 10%;
 }
 
 /* Contact Form */
@@ -267,7 +267,7 @@ input {
 
 .contact-footer {
     position: absolute;
-    top: 95%;
+    top: 90%;
     bottom: 2.5%;
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -296,7 +296,7 @@ input {
 
 #coaching-footer {
     position: absolute;
-    top: 85%;
+    top: 80%;
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
@@ -376,7 +376,7 @@ input {
 
 #eat-footer {
     position: absolute;
-    top: 85%;
+    top: 80%;
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
@@ -417,8 +417,8 @@ top: 18%;
 #eat-staples {
     width: 400px;
     height: 300px;
-    /* border-color: rgb(97,140,3);
-    border-width: 20px; */
+    border-color: rgb(97,140,3);
+    border-width: 20px;
     position: absolute;
     left: 10%;
 }
@@ -483,13 +483,13 @@ top: 18%;
 
 #recipes-video {
     position: absolute;
-    top: 48%;
+    top: 53%;
     left: 57%;
 }
 
 #recipes-footer {
     position: absolute;
-    top: 85%;
+    top: 80%;
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
