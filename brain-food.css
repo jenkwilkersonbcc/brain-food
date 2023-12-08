@@ -202,8 +202,8 @@ header {
     margin-top: 5%;
     position: relative;
     left: 57%;
-    /* position: absolute;
-    bottom: 5%; */
+    position: absolute;
+    bottom: 5%;
 }
 
 /* Contact Form */
