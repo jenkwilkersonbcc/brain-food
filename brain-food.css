@@ -265,8 +265,8 @@ input {
 }
 
 .contact-footer {
-    position: absolute;
-    top: 97%;
+    /* position: absolute;
+    top: 97%; */
     bottom: 2.5%;
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -294,8 +294,8 @@ input {
 }
 
 #coaching-footer {
-    position: absolute;
-    top: 90%;
+    /* position: absolute;
+    top: 90%; */
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
@@ -374,8 +374,8 @@ input {
 }
 
 #eat-footer {
-    position: absolute;
-    top: 90%;
+    /* position: absolute;
+    top: 90%; */
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
@@ -487,8 +487,8 @@ top: 18%;
 }
 
 #recipes-footer {
-    position: absolute;
-    top: 90%;
+    /* position: absolute;
+    top: 90%; */
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
